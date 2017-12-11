@@ -5,9 +5,9 @@ And replace below values in the HTML file.
 
 
 #### 1. Change the values
-    ``var accessToken = "<your agents access token>";``
-    ``var baseUrl = "https://api.dialogflow.com/v1/";``
-    ``var agentName = '<Your Agent name>';``
+    var accessToken = "<your agents access token>";
+    var baseUrl = "https://api.dialogflow.com/v1/";
+    var agentName = '<Your Agent name>';
 
 #### 2. Branding
   Change the Header.
