@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aura</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.insead.edu/chat-bot/css/style.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid agent">
+    <div class="row">
+        <div class="col-md-12 header-wrapper">
+            <div class="header">
+                <div class="icon pull-left">
+                        <img width="75" id="agent-avatar" src="//cdn.insead.edu/logo/logo-full-white.svg">
+                </div>
+                <div class="header-wrapper">
+                    <div class=""><p><strong>Aura</strong></p></div>
+                    <div class="b-agent-demo_header-description">Hi, I am the support agent of online application
+                        platform at INSEAD
+                    </div>
+                </div>
+            </div>
+            <div class="agent-result" id="resultWrapper">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td id="result">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="agent-input">
+                <form>
+                    <input type="text" name="q" id="query" placeholder="Ask something..." autocomplete="off">
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+<script src="//cdn.insead.edu/chat-bot/js/agent.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var accessToken = "6edd57e07c2c41969825d9145c06c884";
+    var baseUrl = "https://api.dialogflow.com/v1/";
+    var agentName = 'Aura';
+</script>
+</body>
+</html>
